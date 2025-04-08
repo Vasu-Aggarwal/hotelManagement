@@ -18,7 +18,7 @@ public class HotelServiceImpl implements HotelService {
 
     @Override
     public GetHotelDetailByIdResponse getHotelDetailsById(Integer hotelId) {
-        Hotel hotel = hotelRepository.findHotelById(hotelId);
+        Hotel hotel = hotelRepository.findHotelByHotelId(hotelId);
         return modelMapper.map(hotel,
                 GetHotelDetailByIdResponse.class);
     }

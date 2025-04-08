@@ -1,6 +1,5 @@
 package com.management.hotel.hotelManagement.service;
 
-import com.management.hotel.hotelManagement.dto.response.AddHotelDetailsResponse;
 import com.management.hotel.hotelManagement.dto.response.GetHotelDetailByIdResponse;
 
 public interface HotelService {
